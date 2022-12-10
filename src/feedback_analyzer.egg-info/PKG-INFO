@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: feedback-analyzer
+Version: 0.0.1
+Summary: A package for mining and analyzing consumer feedback from third party platforms
+Home-page: https://https://github.com/cbrow97/consumer-feedback-analyzer
+Author: Colton Brown
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.*,<3.9.*
+Provides-Extra: dev

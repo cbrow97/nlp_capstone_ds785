@@ -1,7 +1,7 @@
 import pandas as pd
 from collections import Counter
 import spacy
-from collections import Counter
+
 
 text_df = pd.read_pickle("/home/ubuntu/consumer-feedback-miner/src/pre_process/cleaned_review_text.pkl")
 
