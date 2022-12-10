@@ -1,0 +1,3 @@
+# when running `pip install -r requirements.txt`, the following line delegates
+# to setup.py
+-e .[dev]
