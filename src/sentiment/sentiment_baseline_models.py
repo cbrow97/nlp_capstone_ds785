@@ -61,8 +61,7 @@ class RobertaBaseSentiment:
     def __init__(self):
         self.labels = ['negative', 'neutral', 'positive']
         self.task = "sentiment"
-        #self.MODEL = f"cardiffnlp/twitter-roberta-base-{self.task}"
-        self.MODEL = f"cardiffnlp/twitter-roberta-base-sentiment-latest"
+        self.MODEL = "cardiffnlp/twitter-roberta-base-sentiment-latest"
         self.tokenizer = AutoTokenizer.from_pretrained(self.MODEL)
         self.model = AutoModelForSequenceClassification.from_pretrained(self.MODEL)
 
