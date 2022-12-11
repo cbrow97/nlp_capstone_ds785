@@ -1,4 +1,4 @@
-from sentiment.sentiment_models import VaderSentiment, TextBlobSentiment, RobertaBaseSentiment
+from sentiment.sentiment_baseline_models import VaderSentiment, TextBlobSentiment, RobertaBaseSentiment
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
